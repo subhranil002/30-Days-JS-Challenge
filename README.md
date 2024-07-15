@@ -11,6 +11,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
   - [Daily Tasks](#daily-tasks)
     - [Day 1: Variables and Data Types](#day-1-variables-and-data-types)
     - [Day 2: Operators](#day-2-operators)
+    - [Day 3: Control Structures](#day-3-control-structures)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -23,7 +24,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 
 -   [x] **Day 1**: Variables and Data Types
 -   [x] **Day 2**: Operators
--   [ ] **Day 3**: Control Structures
+-   [x] **Day 3**: Control Structures
 -   [ ] **Day 4**: Loops
 -   [ ] **Day 5**: Functions
 -   [ ] **Day 6**: Arrays
@@ -79,6 +80,16 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 - **Task 12**: Write a program that uses the `||` operator to combine two conditions and log the result to the console.
 - **Task 13**: Write a program that uses the `!` operator to negate a condition and log the result to the console.
 - **Task 14**: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.
+
+### Day 3: Control Structures
+
+- **Task 1**: Write a program to check if a number is positive, negative, or zero, and log the result to the console.
+- **Task 2**: Write a program to check if a person is eligible to vote (age >= 18) and log the result to the console.
+- **Task 3**: Write a program to find the largest of three numbers using nested if-else statements.
+- **Task 4**: Write a program that uses a switch case to determine the day of the week based on a number (1-7) and log the day name to the console.
+- **Task 5**: Write a program that uses a switch case to assign a grade ('A', 'B', 'C', 'D', 'F') based on a score and log the grade to the console.
+- **Task 6**: Write a program that uses the ternary operator to check if a number is even or odd and log the result to the console.
+- **Task 7**: Write a program to check if a year is a leap year using multiple conditions (divisible by 4, but not 100 unless also divisible by 400) and log the result to the console.
 
 ## Resources
 

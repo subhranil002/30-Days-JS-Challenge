@@ -10,6 +10,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
   - [Progress](#progress)
   - [Daily Tasks](#daily-tasks)
     - [Day 1: Variables and Data Types](#day-1-variables-and-data-types)
+    - [Day 2: Operators](#day-2-operators)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -21,7 +22,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 ## Progress
 
 -   [x] **Day 1**: Variables and Data Types
--   [ ] **Day 2**: Operators
+-   [x] **Day 2**: Operators
 -   [ ] **Day 3**: Control Structures
 -   [ ] **Day 4**: Loops
 -   [ ] **Day 5**: Functions
@@ -61,6 +62,23 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   **Task 4**: Create variables of different data types (number, string, boolean, object, array) and log each variable's type using the `typeof` operator.
 -   **Task 5**: Declare a variable using `let`, assign it an initial value, reassign a new value, and log both values to the console.
 -   **Task 6**: Try reassigning a variable declared with `const` and observe the error.
+
+### Day 2: Operators
+
+- **Task 1**: Write a program to add two numbers and log the result to the console.
+- **Task 2**: Write a program to subtract two numbers and log the result to the console.
+- **Task 3**: Write a program to multiply two numbers and log the result to the console.
+- **Task 4**: Write a program to divide two numbers and log the result to the console.
+- **Task 5**: Write a program to find the remainder when one number is divided by another and log the result to the console.
+- **Task 6**: Use the `+=` operator to add a number to a variable and log the result to the console.
+- **Task 7**: Use the `-=` operator to subtract a number from a variable and log the result to the console.
+- **Task 8**: Write a program to compare two numbers using `>` and `<` and log the result to the console.
+- **Task 9**: Write a program to compare two numbers using `>=` and `<=` and log the result to the console.
+- **Task 10**: Write a program to compare two numbers using `==` and `===` and log the result to the console.
+- **Task 11**: Write a program that uses the `&&` operator to combine two conditions and log the result to the console.
+- **Task 12**: Write a program that uses the `||` operator to combine two conditions and log the result to the console.
+- **Task 13**: Write a program that uses the `!` operator to negate a condition and log the result to the console.
+- **Task 14**: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.
 
 ## Resources
 

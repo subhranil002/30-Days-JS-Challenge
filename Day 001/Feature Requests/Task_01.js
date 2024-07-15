@@ -1,3 +1,5 @@
+// Write a script that declares variables of different data types and logs both the value and type of each variable to the console
+
 let numberVar = 42; // declare and assign a number to numberVar
 let stringVar = "Hello, world!"; // declare and assign a string to stringVar
 let booleanVar = true; // declare and assign a boolean to booleanVar

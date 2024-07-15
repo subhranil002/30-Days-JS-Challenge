@@ -1,3 +1,5 @@
+// Create variables of different data types (number, string, boolean, object, array) and log each variable's type using the `typeof` operator
+
 const x = 5; // declare x with value 5
 
 const str = "Hello World"; // declare str with value "Hello World"

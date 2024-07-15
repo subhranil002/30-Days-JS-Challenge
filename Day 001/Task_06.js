@@ -1,3 +1,5 @@
+// Try reassigning a variable declared with `const` and observe the error
+
 const x = 5; // declare x and assign 5 to it
 
 console.log(x); // prints 5

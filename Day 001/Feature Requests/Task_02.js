@@ -1,3 +1,5 @@
+// Create a script that demonstrates the difference in behavior between let and const when it comes to reassignment
+
 // Using 'let'
 let x = 10;
 console.log('Initial value using let:', x); // Initial value using let: 10

@@ -12,6 +12,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 1: Variables and Data Types](#day-1-variables-and-data-types)
     - [Day 2: Operators](#day-2-operators)
     - [Day 3: Control Structures](#day-3-control-structures)
+    - [Day 4: Loops](#day-4-loops)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -25,7 +26,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 1**: Variables and Data Types
 -   [x] **Day 2**: Operators
 -   [x] **Day 3**: Control Structures
--   [ ] **Day 4**: Loops
+-   [x] **Day 4**: Loops
 -   [ ] **Day 5**: Functions
 -   [ ] **Day 6**: Arrays
 -   [ ] **Day 7**: Objects
@@ -90,6 +91,26 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 - **Task 5**: Write a program that uses a switch case to assign a grade ('A', 'B', 'C', 'D', 'F') based on a score and log the grade to the console.
 - **Task 6**: Write a program that uses the ternary operator to check if a number is even or odd and log the result to the console.
 - **Task 7**: Write a program to check if a year is a leap year using multiple conditions (divisible by 4, but not 100 unless also divisible by 400) and log the result to the console.
+
+### Day 4: Loops
+
+  - **Task 1**: Write a program to print numbers from 1 to 10 using a for loop.
+  - **Task 2**: Write a program to print the multiplication table of 5 using a for loop.
+  - **Task 3**: Write a program to calculate the sum of numbers from 1 to 10 using a while loop.
+  - **Task 4**: Write a program to print numbers from 10 to 1 using a while loop.
+  - **Task 5**: Write a program to print numbers from 1 to 5 using a do…while loop.
+  - **Task 6**: Write a program to calculate the factorial of a number using a do…while loop.
+  - **Task 7**: Write a program to print a pattern using nested for loops:
+    (ignore color)
+    ```
+    * 
+    * *
+    * * *
+    * * * *
+    ```
+  - **Task 8**: Write a program to print numbers from 1 to 10, but skip the number 5 using the `continue` statement.
+  - **Task 9**: Write a program to print numbers from 1 to 10, but stop the loop when the number is 7 using the `break` statement.
+
 
 ## Resources
 

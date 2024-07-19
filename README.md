@@ -15,6 +15,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 4: Loops](#day-4-loops)
     - [Day 5: Functions](#day-5-functions)
     - [Day 6: Arrays](#day-6-arrays)
+    - [Day 7: Objects](#day-7-objects)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -31,7 +32,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 4**: Loops
 -   [x] **Day 5**: Functions
 -   [x] **Day 6**: Arrays
--   [ ] **Day 7**: Objects
+-   [x] **Day 7**: Objects
 -   [ ] **Day 8**: ES6+ Features
 -   [ ] **Day 9**: DOM Manipulation
 -   [ ] **Day 10**: Event Handling
@@ -128,19 +129,31 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 
 ### Day 6: Arrays
 
-- **Task 1**: Create an array of numbers from 1 to 5 and log the array to the console.
-- **Task 2**: Access the first and last elements of the array and log them to the console.
-- **Task 3**: Use the `push` method to add a new number to the end of the array and log the updated array.
-- **Task 4**: Use the `pop` method to remove the last element from the array and log the updated array.
-- **Task 5**: Use the `shift` method to remove the first element from the array and log the updated array.
-- **Task 6**: Use the `unshift` method to add a new number to the beginning of the array and log the updated array.
-- **Task 7**: Use the `map` method to create a new array where each number is doubled and log the new array.
-- **Task 8**: Use the `filter` method to create a new array with only even numbers and log the new array.
-- **Task 9**: Use the `reduce` method to calculate the sum of all numbers in the array and log the result.
-- **Task 10**: Use a `for` loop to iterate over the array and log each element to the console.
-- **Task 11**: Use the `forEach` method to iterate over the array and log each element to the console.
-- **Task 12**: Create a two-dimensional array (matrix) and log the entire array to the console.
-- **Task 13**: Access and log a specific element from the two-dimensional array.
+-   **Task 1**: Create an array of numbers from 1 to 5 and log the array to the console.
+-   **Task 2**: Access the first and last elements of the array and log them to the console.
+-   **Task 3**: Use the `push` method to add a new number to the end of the array and log the updated array.
+-   **Task 4**: Use the `pop` method to remove the last element from the array and log the updated array.
+-   **Task 5**: Use the `shift` method to remove the first element from the array and log the updated array.
+-   **Task 6**: Use the `unshift` method to add a new number to the beginning of the array and log the updated array.
+-   **Task 7**: Use the `map` method to create a new array where each number is doubled and log the new array.
+-   **Task 8**: Use the `filter` method to create a new array with only even numbers and log the new array.
+-   **Task 9**: Use the `reduce` method to calculate the sum of all numbers in the array and log the result.
+-   **Task 10**: Use a `for` loop to iterate over the array and log each element to the console.
+-   **Task 11**: Use the `forEach` method to iterate over the array and log each element to the console.
+-   **Task 12**: Create a two-dimensional array (matrix) and log the entire array to the console.
+-   **Task 13**: Access and log a specific element from the two-dimensional array.
+
+### Day 7: Objects
+
+-   **Task 1:** Create an object representing a book with properties like title, author, and year, and log the object to the console.
+-   **Task 2:** Access and log the title and author properties of the book object.
+-   **Task 3:** Add a method to the book object that returns a string with the book’s title and author, and log the result of calling this method.
+-   **Task 4:** Add a method to the book object that takes a parameter (year) and updates the book’s year property, then log the updated object.
+-   **Task 5:** Create a nested object representing a library with properties like name and books (an array of book objects), and log the library object to the console.
+-   **Task 6:** Access and log the name of the library and the titles of all the books in the library.
+-   **Task 7:** Add a method to the book object that uses the `this` keyword to return a string with the book’s title and year, and log the result of calling this method.
+-   **Task 8:** Use a `for...in` loop to iterate over the properties of the book object and log each property and its value.
+-   **Task 9:** Use `Object.keys` and `Object.values` methods to log all the keys and values of the book object.
 
 ## Resources
 

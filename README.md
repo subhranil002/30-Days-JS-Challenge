@@ -14,6 +14,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 3: Control Structures](#day-3-control-structures)
     - [Day 4: Loops](#day-4-loops)
     - [Day 5: Functions](#day-5-functions)
+    - [Day 6: Arrays](#day-6-arrays)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -29,7 +30,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 3**: Control Structures
 -   [x] **Day 4**: Loops
 -   [x] **Day 5**: Functions
--   [ ] **Day 6**: Arrays
+-   [x] **Day 6**: Arrays
 -   [ ] **Day 7**: Objects
 -   [ ] **Day 8**: ES6+ Features
 -   [ ] **Day 9**: DOM Manipulation
@@ -124,6 +125,22 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   **Task 8**: Write a function that takes a person’s name and age and returns a greeting message. Provide a default value for the age.
 -   **Task 9**: Write a higher-order function that takes a function and a number, and calls the function that many times.
 -   **Task 10**: Write a higher-order function that takes two functions and a value, applies the first function to the value, and then applies the second function to the result.
+
+### Day 6: Arrays
+
+- **Task 1**: Create an array of numbers from 1 to 5 and log the array to the console.
+- **Task 2**: Access the first and last elements of the array and log them to the console.
+- **Task 3**: Use the `push` method to add a new number to the end of the array and log the updated array.
+- **Task 4**: Use the `pop` method to remove the last element from the array and log the updated array.
+- **Task 5**: Use the `shift` method to remove the first element from the array and log the updated array.
+- **Task 6**: Use the `unshift` method to add a new number to the beginning of the array and log the updated array.
+- **Task 7**: Use the `map` method to create a new array where each number is doubled and log the new array.
+- **Task 8**: Use the `filter` method to create a new array with only even numbers and log the new array.
+- **Task 9**: Use the `reduce` method to calculate the sum of all numbers in the array and log the result.
+- **Task 10**: Use a `for` loop to iterate over the array and log each element to the console.
+- **Task 11**: Use the `forEach` method to iterate over the array and log each element to the console.
+- **Task 12**: Create a two-dimensional array (matrix) and log the entire array to the console.
+- **Task 13**: Access and log a specific element from the two-dimensional array.
 
 ## Resources
 

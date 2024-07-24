@@ -1,0 +1,26 @@
+<!-- Attribute Modification Script: Create a script that changes the attributes of an HTML element -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <style>
+        .myClass {
+            color: red;
+        }
+
+        .newClass {
+            color: blue;
+        }
+    </style>
+    <body>
+        <div id="myDiv" class="myClass">Hello World</div>
+        <script>
+            const div = document.getElementById("myDiv");
+            div.setAttribute("class", "newClass");
+        </script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!-- Event Handling Script: Write a script that adds event listeners to HTML elements to change their content or style based on user interactions -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="myDiv">Hello World</div>
+        <script>
+            const div = document.getElementById("myDiv");
+            div.addEventListener("click", function() {
+                div.textContent = "Goodbye World";
+            });
+        </script>
+    </body>
+</html>

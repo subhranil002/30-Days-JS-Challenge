@@ -1,0 +1,27 @@
+<!-- Add a mouseover event listener to an element that changes its border color -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <style>
+        p {
+            border: 2px solid white;
+            padding: 10px;
+        }
+    </style>
+    <body>
+        <p>This is a paragraph</p>
+        <script>
+            const p = document.getElementsByTagName("p")[0];
+            p.addEventListener("mouseover", changeBorderColor);
+
+            function changeBorderColor() {
+                p.style.borderColor = "red";
+            }
+        </script>
+    </body>
+</html>

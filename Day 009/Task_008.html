@@ -1,0 +1,27 @@
+<!-- Add and remove a CSS class to/from an HTML element -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <style>
+        .myClass {
+            color: red;
+        }
+    </style>
+    <body>
+        <div class="myDiv">
+            <p id="id1" class="myClass">This is a paragraph</p>
+            <p id="id2">This is another paragraph</p>
+        </div>
+        <script>
+            const id1 = document.getElementById("id1");
+            const id2 = document.getElementById("id2");
+            id1.classList.remove("myClass");
+            id2.classList.add("myClass");
+        </script>
+    </body>
+</html>

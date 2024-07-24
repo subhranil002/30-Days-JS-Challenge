@@ -1,0 +1,20 @@
+<!-- Add a click event listener to a button that changes the text content of a paragraph -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+        <button onclick="changeText()">Click me</button>
+        <script>
+            const changeText = () => {
+                const p = document.getElementsByTagName("p")[0];
+                p.textContent = "Goodbye World!";
+            };
+        </script>
+    </body>
+</html>

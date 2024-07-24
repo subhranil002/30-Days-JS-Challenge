@@ -1,0 +1,22 @@
+<!-- Select an HTML element and change one of its attributes (e.g., src of an img tag) -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <img
+            src="https://images.pexels.com/photos/19545795/pexels-photo-19545795/free-photo-of-peacock-at-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Peacock"
+            id="myImg"
+        />
+        <script>
+            const img = document.getElementById("myImg");
+            img.src =
+                "https://images.pexels.com/photos/20799000/pexels-photo-20799000/free-photo-of-natural-arch-over-lagzira-beach-in-morocco.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load";
+        </script>
+    </body>
+</html>

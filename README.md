@@ -17,6 +17,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 6: Arrays](#day-6-arrays)
     - [Day 7: Objects](#day-7-objects)
     - [Day 8: ES6+ Features](#day-8-es6-features)
+    - [Day 9: DOM Manipulation](#day-9-dom-manipulation)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -35,7 +36,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 6**: Arrays
 -   [x] **Day 7**: Objects
 -   [x] **Day 8**: ES6+ Features
--   [ ] **Day 9**: DOM Manipulation
+-   [x] **Day 9**: DOM Manipulation
 -   [ ] **Day 10**: Event Handling
 -   [ ] **Day 11**: Promises and Async/Await
 -   [ ] **Day 12**: Error Handling
@@ -167,6 +168,19 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   **Task 7**: Write a function that takes two parameters and returns their product, with the second parameter having a default value of 1. Log the result of calling this function with and without the second parameter.
 -   **Task 8**: Use enhanced object literals to create an object with methods and properties, and log the object to the console.
 -   **Task 9**: Create an object with computed property names based on variables and log the object to the console.
+
+### Day 9: DOM Manipulation
+
+-   **Task 1**: Select an HTML element by its ID and change its text content.
+-   **Task 2**: Select an HTML element by its class and change its background color.
+-   **Task 3**: Create a new `div` element with some text content and append it to the body.
+-   **Task 4**: Create a new `li` element and add it to an existing `ul` list.
+-   **Task 5**: Select an HTML element and remove it from the DOM.
+-   **Task 6**: Remove the last child of a specific HTML element.
+-   **Task 7**: Select an HTML element and change one of its attributes (e.g., `src` of an `img` tag).
+-   **Task 8**: Add and remove a CSS class to/from an HTML element.
+-   **Task 9**: Add a click event listener to a button that changes the text content of a paragraph.
+-   **Task 10**: Add a mouseover event listener to an element that changes its border color.
 
 ## Resources
 

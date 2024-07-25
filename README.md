@@ -19,6 +19,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 8: ES6+ Features](#day-8-es6-features)
     - [Day 9: DOM Manipulation](#day-9-dom-manipulation)
     - [Day 10: Event Handling](#day-10-event-handling)
+    - [Day 11: Promises and Async/Await](#day-11-promises-and-asyncawait)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -39,7 +40,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 8**: ES6+ Features
 -   [x] **Day 9**: DOM Manipulation
 -   [x] **Day 10**: Event Handling
--   [ ] **Day 11**: Promises and Async/Await
+-   [x] **Day 11**: Promises and Async/Await
 -   [ ] **Day 12**: Error Handling
 -   [ ] **Day 13**: Modules
 -   [ ] **Day 14**: Classes
@@ -195,6 +196,18 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   **Task 8:** Add a change event listener to a select dropdown that displays the selected value in a paragraph.
 -   **Task 9:** Add a click event listener to a list that logs the text content of the clicked list item using event delegation.
 -   **Task 10:** Add an event listener to a parent element that listens for events from dynamically added child elements.
+
+### Day 11: Promises and Async/Await
+
+- **Task 1**: Create a promise that resolves with a message after a 2-second timeout and log the message to the console.
+- **Task 2**: Create a promise that rejects with an error message after a 2-second timeout and handle the error using `.catch()`.
+- **Task 3**: Create a sequence of promises that simulate fetching data from a server. Chain the promises to log messages in a specific order.
+- **Task 4**: Write an async function that waits for a promise to resolve and then logs the resolved value.
+- **Task 5**: Write an async function that handles a rejected promise using try-catch and logs the error message.
+- **Task 6**: Use the `fetch` API to get data from a public API and log the response data to the console using promises.
+- **Task 7**: Use the `fetch` API to get data from a public API and log the response data to the console using async/await.
+- **Task 8**: Use `Promise.all` to wait for multiple promises to resolve and then log all their values.
+- **Task 9**: Use `Promise.race` to log the value of the first promise that resolves among multiple promises.
 
 ## Resources
 

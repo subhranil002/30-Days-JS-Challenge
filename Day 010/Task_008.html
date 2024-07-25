@@ -1,0 +1,26 @@
+<!-- Add a change event listener to a select dropdown that displays the selected value in a paragraph -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <select id="mySelect">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <p id="myParagraph"></p>
+        <script>
+            const select = document.getElementById("mySelect");
+            const paragraph = document.getElementById("myParagraph");
+            select.addEventListener("change", (e) => {
+                paragraph.textContent = e.target.value;
+            });
+        </script>
+    </body>
+</html>

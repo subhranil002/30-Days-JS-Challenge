@@ -1,0 +1,36 @@
+<!-- Create a script that handles form submission and change events on a select dropdown -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form id="myForm">
+            <select id="mySelect">
+                <option value="Option">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+            </select>
+            <button type="submit" id="mySubmit">Submit</button>
+        </form>
+        <script>
+            const form = document.getElementById("myForm");
+            const submit = document.getElementById("mySubmit");
+            const select = document.getElementById("mySelect");
+
+            let selectedValue = select.value;
+
+            select.addEventListener("change", (e) => {
+                selectedValue = e.target.value;
+            });
+
+            form.addEventListener("submit", (e) => {
+                e.preventDefault();
+                console.log(selectedValue);
+            });
+        </script>
+    </body>
+</html>

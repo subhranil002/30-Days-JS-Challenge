@@ -1,0 +1,47 @@
+<!-- Write a script that demonstrates event delegation by handling events on dynamically added child elements -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <style>
+        .list-item {
+            cursor: pointer;
+            padding: 5px;
+            margin: 5px 0;
+            background-color: lightblue;
+        }
+    </style>
+    <body>
+        <button id="add-item">Add List Item</button>
+        <ul id="list">
+            <li class="list-item">Item 1</li>
+            <li class="list-item">Item 2</li>
+            <li class="list-item">Item 3</li>
+        </ul>
+
+        <script>
+            const list = document.getElementById("list");
+
+            list.addEventListener("click", function (event) {
+                if (event.target && event.target.tagName === "LI") {
+                    console.log("List item clicked:", event.target.textContent);
+                }
+            });
+
+            const addItemButton = document.getElementById("add-item");
+            let itemCount = 3;
+
+            addItemButton.addEventListener("click", function () {
+                itemCount++;
+                const newItem = document.createElement("li");
+                newItem.textContent = `Item ${itemCount}`;
+                newItem.className = "list-item";
+                list.appendChild(newItem);
+            });
+        </script>
+    </body>
+</html>

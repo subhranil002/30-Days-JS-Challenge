@@ -1,0 +1,21 @@
+<!-- Add a mouseout event listener to an element that resets its background color -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <p>Hover over me</p>
+        </div>
+        <script>
+            const div = document.querySelector("div");
+            div.addEventListener("mouseout", () => {
+                div.style.backgroundColor = "red";
+            });
+        </script>
+    </body>
+</html>

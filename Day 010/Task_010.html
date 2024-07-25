@@ -1,0 +1,25 @@
+<!-- Add an event listener to a parent element that listens for events from dynamically added child elements -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="myDiv">
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <script>
+            const div = document.getElementById("myDiv");
+            div.addEventListener("click", (e) => {
+                if (e.target && e.target.nodeName === 'P') {
+                    console.log(e.target.textContent);
+                }
+            });
+        </script>
+    </body>
+</html>

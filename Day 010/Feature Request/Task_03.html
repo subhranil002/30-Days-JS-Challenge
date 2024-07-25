@@ -1,0 +1,22 @@
+<!-- Write a script that logs key presses and displays input field values using keydown and keyup event listeners -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <input type="text" id="myInput" />
+        <script>
+            const input = document.getElementById("myInput");
+            input.addEventListener("keydown", (e) => {
+                console.log(e.key);
+            });
+            input.addEventListener("keyup", (e) => {
+                console.log(e.key);
+            });
+        </script>
+    </body>
+</html>

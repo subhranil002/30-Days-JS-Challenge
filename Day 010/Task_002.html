@@ -1,0 +1,23 @@
+<!-- Add a double-click event listener to an image that toggles its visibility -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <img
+            id="img"
+            src="https://images.pexels.com/photos/27108021/pexels-photo-27108021/free-photo-of-a-building-with-a-red-and-white-clock-on-it.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Image"
+        />
+        <script>
+            const img = document.querySelector("#img");
+            img.addEventListener("dblclick", () => {
+                img.style.display = "none";
+            });
+        </script>
+    </body>
+</html>

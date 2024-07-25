@@ -1,0 +1,21 @@
+<!-- Add a click event listener to a button that changes the text content of a paragraph -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <p id="demo">Click the button to change the text</p>
+        <button id="btn">Change text</button>
+        <script>
+            const btn = document.querySelector('#btn');
+            const demo = document.querySelector('#demo');
+            btn.addEventListener('click', () => {
+                demo.textContent = 'Changed';
+            });
+        </script>
+    </body>
+</html>

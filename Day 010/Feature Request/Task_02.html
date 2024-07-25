@@ -1,0 +1,30 @@
+<!-- Create a script that handles mouseover and mouseout events to change the background color of an element -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="myDiv">
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <script>
+            const div = document.getElementById("myDiv");
+            div.addEventListener("mouseover", (e) => {
+                if (e.target && e.target.nodeName === 'P') {
+                    e.target.style.backgroundColor = "red";
+                }
+            });
+            div.addEventListener("mouseout", (e) => {
+                if (e.target && e.target.nodeName === 'P') {
+                    e.target.style.backgroundColor = "white";
+                }
+            });
+        </script>
+    </body>
+</html>

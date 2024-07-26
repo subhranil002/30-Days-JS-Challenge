@@ -21,6 +21,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 10: Event Handling](#day-10-event-handling)
     - [Day 11: Promises and Async/Await](#day-11-promises-and-asyncawait)
     - [Day 12: Error Handling](#day-12-error-handling)
+    - [Day 13: Modules](#day-13-modules)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -43,7 +44,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 10**: Event Handling
 -   [x] **Day 11**: Promises and Async/Await
 -   [x] **Day 12**: Error Handling
--   [ ] **Day 13**: Modules
+-   [x] **Day 13**: Modules
 -   [ ] **Day 14**: Classes
 -   [ ] **Day 15**: Closures
 -   [ ] **Day 16**: Recursion
@@ -200,15 +201,15 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 
 ### Day 11: Promises and Async/Await
 
-- **Task 1**: Create a promise that resolves with a message after a 2-second timeout and log the message to the console.
-- **Task 2**: Create a promise that rejects with an error message after a 2-second timeout and handle the error using `.catch()`.
-- **Task 3**: Create a sequence of promises that simulate fetching data from a server. Chain the promises to log messages in a specific order.
-- **Task 4**: Write an async function that waits for a promise to resolve and then logs the resolved value.
-- **Task 5**: Write an async function that handles a rejected promise using try-catch and logs the error message.
-- **Task 6**: Use the `fetch` API to get data from a public API and log the response data to the console using promises.
-- **Task 7**: Use the `fetch` API to get data from a public API and log the response data to the console using async/await.
-- **Task 8**: Use `Promise.all` to wait for multiple promises to resolve and then log all their values.
-- **Task 9**: Use `Promise.race` to log the value of the first promise that resolves among multiple promises.
+-   **Task 1**: Create a promise that resolves with a message after a 2-second timeout and log the message to the console.
+-   **Task 2**: Create a promise that rejects with an error message after a 2-second timeout and handle the error using `.catch()`.
+-   **Task 3**: Create a sequence of promises that simulate fetching data from a server. Chain the promises to log messages in a specific order.
+-   **Task 4**: Write an async function that waits for a promise to resolve and then logs the resolved value.
+-   **Task 5**: Write an async function that handles a rejected promise using try-catch and logs the error message.
+-   **Task 6**: Use the `fetch` API to get data from a public API and log the response data to the console using promises.
+-   **Task 7**: Use the `fetch` API to get data from a public API and log the response data to the console using async/await.
+-   **Task 8**: Use `Promise.all` to wait for multiple promises to resolve and then log all their values.
+-   **Task 9**: Use `Promise.race` to log the value of the first promise that resolves among multiple promises.
 
 ### Day 12: Error Handling
 
@@ -221,6 +222,17 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   **Task 7**: Use try-catch within an async function to handle errors from a promise that randomly resolves or rejects, and log the error message.
 -   **Task 8**: Use the `fetch` API to request data from an invalid URL and handle the error using `.catch()`. Log an appropriate error message to the console.
 -   **Task 9**: Use the `fetch` API to request data from an invalid URL within an async function and handle the error using try-catch. Log an appropriate error message.
+
+### Day 13: Modules
+
+-   **Task 1:** Create a module that exports a function to add two numbers. Import and use this module in another script.
+-   **Task 2:** Create a module that exports an object representing a person with properties and methods. Import and use this module in another script.
+-   **Task 3:** Create a module that exports multiple functions using named exports. Import and use these functions in another script.
+-   **Task 4:** Create a module that exports a single function using default export. Import and use this function in another script.
+-   **Task 5:** Create a module that exports multiple constants and functions. Import the entire module as an object in another script and use its properties.
+-   **Task 6:** Install a third-party module (e.g., `lodash`) using npm. Import and use a function from this module in a script.
+-   **Task 7:** Install a third-party module (e.g., `axios`) using npm. Import and use this module to make a network request in a script.
+-   **Task 8:** Use a module bundler like Webpack or Parcel to bundle multiple JavaScript files into a single file. Write a script to demonstrate the bundling process.
 
 ## Resources
 

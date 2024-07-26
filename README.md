@@ -20,6 +20,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 9: DOM Manipulation](#day-9-dom-manipulation)
     - [Day 10: Event Handling](#day-10-event-handling)
     - [Day 11: Promises and Async/Await](#day-11-promises-and-asyncawait)
+    - [Day 12: Error Handling](#day-12-error-handling)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -41,7 +42,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 9**: DOM Manipulation
 -   [x] **Day 10**: Event Handling
 -   [x] **Day 11**: Promises and Async/Await
--   [ ] **Day 12**: Error Handling
+-   [x] **Day 12**: Error Handling
 -   [ ] **Day 13**: Modules
 -   [ ] **Day 14**: Classes
 -   [ ] **Day 15**: Closures
@@ -208,6 +209,18 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 - **Task 7**: Use the `fetch` API to get data from a public API and log the response data to the console using async/await.
 - **Task 8**: Use `Promise.all` to wait for multiple promises to resolve and then log all their values.
 - **Task 9**: Use `Promise.race` to log the value of the first promise that resolves among multiple promises.
+
+### Day 12: Error Handling
+
+-   **Task 1**: Write a function that intentionally throws an error and use a try-catch block to handle the error and log an appropriate message to the console.
+-   **Task 2**: Create a function that divides two numbers and throws an error if the denominator is zero. Use a try-catch block to handle this error.
+-   **Task 3**: Write a script that includes a try-catch block and a finally block. Log messages in the try, catch, and finally blocks to observe the execution flow.
+-   **Task 4**: Create a custom error class that extends the built-in Error class. Throw an instance of this custom error in a function and handle it using a try-catch block.
+-   **Task 5**: Write a function that validates user input (e.g., checking if a string is not empty) and throws a custom error if the validation fails. Handle the custom error using a try-catch block.
+-   **Task 6**: Create a promise that randomly resolves or rejects. Use `.catch()` to handle the rejection and log an appropriate message to the console.
+-   **Task 7**: Use try-catch within an async function to handle errors from a promise that randomly resolves or rejects, and log the error message.
+-   **Task 8**: Use the `fetch` API to request data from an invalid URL and handle the error using `.catch()`. Log an appropriate error message to the console.
+-   **Task 9**: Use the `fetch` API to request data from an invalid URL within an async function and handle the error using try-catch. Log an appropriate error message.
 
 ## Resources
 

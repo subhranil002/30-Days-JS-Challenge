@@ -23,6 +23,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 12: Error Handling](#day-12-error-handling)
     - [Day 13: Modules](#day-13-modules)
     - [Day 14: Classes](#day-14-classes)
+    - [Day 15: Closures](#day-15-closures)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -47,7 +48,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 12**: Error Handling
 -   [x] **Day 13**: Modules
 -   [x] **Day 14**: Classes
--   [ ] **Day 15**: Closures
+-   [x] **Day 15**: Closures
 -   [ ] **Day 16**: Recursion
 -   [ ] **Day 17**: Data Structures
 -   [ ] **Day 18**: Algorithms
@@ -247,6 +248,17 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   **Task 8**: Add a setter method to the `Person` class to update the name properties (`firstName` and `lastName`). Update the name using the setter and log the updated full name.
 -   **Task 9**: Define a class `Account` with private fields for balance and a method to deposit and withdraw money. Ensure that the balance can only be updated through these methods.
 -   **Task 10**: Create an instance of the `Account` class and test the deposit and withdraw methods, logging the balance after each operation.
+
+### Day 15: Closures
+
+-   **Task 1**: Write a function that returns another function, where the inner function accesses a variable from the outer function's scope. Call the inner function and log the result.
+-   **Task 2**: Create a closure that maintains a private counter. Implement functions to increment and get the current value of the counter.
+-   **Task 3**: Write a function that generates unique IDs. Use a closure to keep track of the last generated ID and increment it with each call.
+-   **Task 4**: Create a closure that captures a user's name and returns a function that greets the user by name.
+-   **Task 5**: Write a loop that creates an array of functions. Each function should log its index when called. Use a closure to ensure each function logs the correct index.
+-   **Task 6**: Use closures to create a simple module for managing a collection of items. Implement methods to add, remove, and list items.
+-   **Task 7**: Write a function that memoizes the results of another function. Use a closure to store the results of previous computations.
+-   **Task 8**: Create a memoized version of a function that calculates the factorial of a number.
 
 ## Resources
 

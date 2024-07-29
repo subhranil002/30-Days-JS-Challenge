@@ -24,6 +24,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 13: Modules](#day-13-modules)
     - [Day 14: Classes](#day-14-classes)
     - [Day 15: Closures](#day-15-closures)
+    - [Day 16: Recursion](#day-16-recursion)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -49,7 +50,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 13**: Modules
 -   [x] **Day 14**: Classes
 -   [x] **Day 15**: Closures
--   [ ] **Day 16**: Recursion
+-   [x] **Day 16**: Recursion
 -   [ ] **Day 17**: Data Structures
 -   [ ] **Day 18**: Algorithms
 -   [ ] **Day 19**: Regular Expressions
@@ -259,6 +260,19 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   **Task 6**: Use closures to create a simple module for managing a collection of items. Implement methods to add, remove, and list items.
 -   **Task 7**: Write a function that memoizes the results of another function. Use a closure to store the results of previous computations.
 -   **Task 8**: Create a memoized version of a function that calculates the factorial of a number.
+
+### Day 16: Recursion
+
+-   **Task 1**: Write a recursive function to calculate the factorial of a number. Log the result for a few test cases.
+-   **Task 2**: Write a recursive function to calculate the nth Fibonacci number. Log the result for a few test cases.
+-   **Task 3**: Write a recursive function to find the sum of all elements in an array. Log the result for a few test cases.
+-   **Task 4**: Write a recursive function to find the maximum element in an array. Log the result for a few test cases.
+-   **Task 5**: Write a recursive function to reverse a string. Log the result for a few test cases.
+-   **Task 6**: Write a recursive function to check if a string is a palindrome. Log the result for a few test cases.
+-   **Task 7**: Write a recursive function to perform a binary search on a sorted array. Log the index of the target element for a few test cases.
+-   **Task 8**: Write a recursive function to count the occurrences of a target element in an array. Log the result for a few test cases.
+-   **Task 9**: Write a recursive function to perform an in-order traversal of a binary tree. Log the nodes as they are visited.
+-   **Task 10**: Write a recursive function to calculate the depth of a binary tree. Log the result for a few test cases.
 
 ## Resources
 

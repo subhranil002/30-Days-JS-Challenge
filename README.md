@@ -26,6 +26,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 15: Closures](#day-15-closures)
     - [Day 16: Recursion](#day-16-recursion)
     - [Day 17: Data Structures](#day-17-data-structures)
+    - [Day 18: Algorithms](#day-18-algorithms)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -53,7 +54,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 15**: Closures
 -   [x] **Day 16**: Recursion
 -   [x] **Day 17**: Data Structures
--   [ ] **Day 18**: Algorithms
+-   [x] **Day 18**: Algorithms
 -   [ ] **Day 19**: Regular Expressions
 -   [ ] **Day 20**: Local Storage and Session Storage
 -   [ ] **Day 21**: LeetCode Easy
@@ -277,16 +278,30 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 
 ### Day 17: Data Structures
 
-- **Task 1**: Implement a `Node` class to represent an element in a linked list with properties `value` and `next`.
-- **Task 2**: Implement a `LinkedList` class with methods to add a node to the end, remove a node from the end, and display all nodes.
-- **Task 3**: Implement a `Stack` class with methods `push` (add element), `pop` (remove element), and `peek` (view the top element).
-- **Task 4**: Use the `Stack` class to reverse a string by pushing all characters onto the stack and then popping them off.
-- **Task 5**: Implement a `Queue` class with methods `enqueue` (add element), `dequeue` (remove element), and `front` (view the first element).
-- **Task 6**: Use the `Queue` class to simulate a simple printer queue where print jobs are added to the queue and processed in order.
-- **Task 7**: Implement a `TreeNode` class to represent a node in a binary tree with properties `value`, `left`, and `right`.
-- **Task 8**: Implement a `BinaryTree` class with methods for inserting values and performing in-order traversal to display nodes.
-- **Task 9**: Implement a `Graph` class with methods to add vertices, add edges, and perform a breadth-first search (BFS).
-- **Task 10**: Use the `Graph` class to represent a simple network and perform BFS to find the shortest path between two nodes.
+-   **Task 1**: Implement a `Node` class to represent an element in a linked list with properties `value` and `next`.
+-   **Task 2**: Implement a `LinkedList` class with methods to add a node to the end, remove a node from the end, and display all nodes.
+-   **Task 3**: Implement a `Stack` class with methods `push` (add element), `pop` (remove element), and `peek` (view the top element).
+-   **Task 4**: Use the `Stack` class to reverse a string by pushing all characters onto the stack and then popping them off.
+-   **Task 5**: Implement a `Queue` class with methods `enqueue` (add element), `dequeue` (remove element), and `front` (view the first element).
+-   **Task 6**: Use the `Queue` class to simulate a simple printer queue where print jobs are added to the queue and processed in order.
+-   **Task 7**: Implement a `TreeNode` class to represent a node in a binary tree with properties `value`, `left`, and `right`.
+-   **Task 8**: Implement a `BinaryTree` class with methods for inserting values and performing in-order traversal to display nodes.
+-   **Task 9**: Implement a `Graph` class with methods to add vertices, add edges, and perform a breadth-first search (BFS).
+-   **Task 10**: Use the `Graph` class to represent a simple network and perform BFS to find the shortest path between two nodes.
+
+### Day 18: Algorithms
+
+-   **Task 1**: Implement the bubble sort algorithm to sort an array of numbers in ascending order. Log the sorted array.
+-   **Task 2**: Implement the selection sort algorithm to sort an array of numbers in ascending order. Log the sorted array.
+-   **Task 3**: Implement the quicksort algorithm to sort an array of numbers in ascending order. Log the sorted array.
+-   **Task 4**: Implement the linear search algorithm to find a target value in an array. Log the index of the target value.
+-   **Task 5**: Implement the binary search algorithm to find a target value in a sorted array. Log the index of the target value.
+-   **Task 6**: Write a function to count the occurrences of each character in a string. Log the character counts.
+-   **Task 7**: Write a function to find the longest substring without repeating characters in a string. Log the length of the substring.
+-   **Task 8**: Write a function to rotate an array by `k` positions. Log the rotated array.
+-   **Task 9**: Write a function to merge two sorted arrays into one sorted array. Log the merged array.
+-   **Task 10**: (Optional) Write a function to solve the Fibonacci sequence using dynamic programming. Log the Fibonacci numbers.
+-   **Task 11**: (Optional) Write a function to solve the knapsack problem using dynamic programming. Log the maximum value that can be obtained.
 
 ## Resources
 

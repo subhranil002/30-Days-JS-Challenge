@@ -1,0 +1,60 @@
+// Create a simple form that saves user input (e.g., name and email) to
+localStorage when submitted. Retrieve and display the saved data on page load
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Save User Data to LocalStorage</h1>
+        <form id="userForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <button type="submit">Save</button>
+        </form>
+        <h2>Saved Data:</h2>
+        <p id="savedData"></p>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const form = document.getElementById("userForm");
+                const savedDataElement = document.getElementById("savedData");
+
+                function saveFormData(event) {
+                    event.preventDefault();
+                    const name = document.getElementById("name").value;
+                    const email = document.getElementById("email").value;
+
+                    const userData = {
+                        name: name,
+                        email: email,
+                    };
+
+                    localStorage.setItem("userData", JSON.stringify(userData));
+                    displaySavedData();
+                }
+
+                function displaySavedData() {
+                    const savedData = localStorage.getItem("userData");
+
+                    if (savedData) {
+                        const userData = JSON.parse(savedData);
+                        savedDataElement.textContent = `Name: ${userData.name}, Email: ${userData.email}`;
+                    } else {
+                        savedDataElement.textContent = "No data saved.";
+                    }
+                }
+
+                form.addEventListener("submit", saveFormData);
+
+                displaySavedData();
+            });
+        </script>
+    </body>
+</html>

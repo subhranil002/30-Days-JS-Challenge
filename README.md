@@ -27,6 +27,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 16: Recursion](#day-16-recursion)
     - [Day 17: Data Structures](#day-17-data-structures)
     - [Day 18: Algorithms](#day-18-algorithms)
+    - [Day 19: Regular Expressions](#day-19-regular-expressions)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -55,7 +56,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 16**: Recursion
 -   [x] **Day 17**: Data Structures
 -   [x] **Day 18**: Algorithms
--   [ ] **Day 19**: Regular Expressions
+-   [x] **Day 19**: Regular Expressions
 -   [ ] **Day 20**: Local Storage and Session Storage
 -   [ ] **Day 21**: LeetCode Easy
 -   [ ] **Day 22**: LeetCode Medium
@@ -302,6 +303,19 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   **Task 9**: Write a function to merge two sorted arrays into one sorted array. Log the merged array.
 -   **Task 10**: (Optional) Write a function to solve the Fibonacci sequence using dynamic programming. Log the Fibonacci numbers.
 -   **Task 11**: (Optional) Write a function to solve the knapsack problem using dynamic programming. Log the maximum value that can be obtained.
+
+### Day 19: Regular Expressions
+
+-   **Task 1**: Write a regular expression to match a simple pattern (e.g., match all occurrences of the word "JavaScript" in a string). Log the matches.
+-   **Task 2**: Write a regular expression to match all digits in a string. Log the matches.
+-   **Task 3**: Write a regular expression to match all words in a string that start with a capital letter. Log the matches.
+-   **Task 4**: Write a regular expression to match all sequences of one or more digits in a string. Log the matches.
+-   **Task 5**: Write a regular expression to capture the area code, central office code, and line number from a US phone number format (e.g., (123) 456-7890). Log the captures.
+-   **Task 6**: Write a regular expression to capture the username and domain from an email address. Log the captures.
+-   **Task 7**: Write a regular expression to match a word only if it is at the beginning of a string. Log the matches.
+-   **Task 8**: Write a regular expression to match a word only if it is at the end of a string. Log the matches.
+-   **Task 9**: Write a regular expression to validate a simple password (must include at least one uppercase letter, one lowercase letter, one digit, and one special character). Log whether the password is valid.
+-   **Task 10**: Write a regular expression to validate a URL. Log whether the URL is valid.
 
 ## Resources
 

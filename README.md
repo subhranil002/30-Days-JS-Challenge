@@ -28,6 +28,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 17: Data Structures](#day-17-data-structures)
     - [Day 18: Algorithms](#day-18-algorithms)
     - [Day 19: Regular Expressions](#day-19-regular-expressions)
+    - [Day 20: LocalStorage and SessionStorage](#day-20-localstorage-and-sessionstorage)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -57,7 +58,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 17**: Data Structures
 -   [x] **Day 18**: Algorithms
 -   [x] **Day 19**: Regular Expressions
--   [ ] **Day 20**: Local Storage and Session Storage
+-   [x] **Day 20**: Local Storage and Session Storage
 -   [ ] **Day 21**: LeetCode Easy
 -   [ ] **Day 22**: LeetCode Medium
 -   [ ] **Day 23**: LeetCode Hard
@@ -316,6 +317,19 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   **Task 8**: Write a regular expression to match a word only if it is at the end of a string. Log the matches.
 -   **Task 9**: Write a regular expression to validate a simple password (must include at least one uppercase letter, one lowercase letter, one digit, and one special character). Log whether the password is valid.
 -   **Task 10**: Write a regular expression to validate a URL. Log whether the URL is valid.
+
+### Day 20: LocalStorage and SessionStorage
+
+-   **Task 1**: Write a script to save a string value to localStorage and retrieve it. Log the retrieved value.
+-   **Task 2**: Write a script to save an object to localStorage by converting it to a JSON string. Retrieve and parse the object, then log it.
+-   **Task 3**: Create a simple form that saves user input (e.g., name and email) to localStorage when submitted. Retrieve and display the saved data on page load.
+-   **Task 4**: Write a script to remove an item from localStorage. Log the localStorage content before and after removal.
+-   **Task 5**: Write a script to save a string value to sessionStorage and retrieve it. Log the retrieved value.
+-   **Task 6**: Write a script to save an object to sessionStorage by converting it to a JSON string. Retrieve and parse the object, then log it.
+-   **Task 7**: Create a simple form that saves user input (e.g., name and email) to sessionStorage when submitted. Retrieve and display the saved data on page load.
+-   **Task 8**: Write a script to remove an item from sessionStorage. Log the sessionStorage content before and after removal.
+-   **Task 9**: Write a function that accepts a key and a value, and saves the value to both localStorage and sessionStorage. Retrieve and log the values from both storage mechanisms.
+-   **Task 10**: Write a function that clears all data from both localStorage and sessionStorage. Verify that both storages are empty.
 
 ## Resources
 

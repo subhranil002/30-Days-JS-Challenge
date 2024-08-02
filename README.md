@@ -4,34 +4,35 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
 
 ## Table of Contents
 
-- [My 30 Days JavaScript Challenge](#my-30-days-javascript-challenge)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Progress](#progress)
-  - [Daily Tasks](#daily-tasks)
-    - [Day 1: Variables and Data Types](#day-1-variables-and-data-types)
-    - [Day 2: Operators](#day-2-operators)
-    - [Day 3: Control Structures](#day-3-control-structures)
-    - [Day 4: Loops](#day-4-loops)
-    - [Day 5: Functions](#day-5-functions)
-    - [Day 6: Arrays](#day-6-arrays)
-    - [Day 7: Objects](#day-7-objects)
-    - [Day 8: ES6+ Features](#day-8-es6-features)
-    - [Day 9: DOM Manipulation](#day-9-dom-manipulation)
-    - [Day 10: Event Handling](#day-10-event-handling)
-    - [Day 11: Promises and Async/Await](#day-11-promises-and-asyncawait)
-    - [Day 12: Error Handling](#day-12-error-handling)
-    - [Day 13: Modules](#day-13-modules)
-    - [Day 14: Classes](#day-14-classes)
-    - [Day 15: Closures](#day-15-closures)
-    - [Day 16: Recursion](#day-16-recursion)
-    - [Day 17: Data Structures](#day-17-data-structures)
-    - [Day 18: Algorithms](#day-18-algorithms)
-    - [Day 19: Regular Expressions](#day-19-regular-expressions)
-    - [Day 20: LocalStorage and SessionStorage](#day-20-localstorage-and-sessionstorage)
-  - [Resources](#resources)
-  - [Credits](#credits)
-  - [License](#license)
+-   [My 30 Days JavaScript Challenge](#my-30-days-javascript-challenge)
+    -   [Table of Contents](#table-of-contents)
+    -   [Overview](#overview)
+    -   [Progress](#progress)
+    -   [Daily Tasks](#daily-tasks)
+        -   [Day 1: Variables and Data Types](#day-1-variables-and-data-types)
+        -   [Day 2: Operators](#day-2-operators)
+        -   [Day 3: Control Structures](#day-3-control-structures)
+        -   [Day 4: Loops](#day-4-loops)
+        -   [Day 5: Functions](#day-5-functions)
+        -   [Day 6: Arrays](#day-6-arrays)
+        -   [Day 7: Objects](#day-7-objects)
+        -   [Day 8: ES6+ Features](#day-8-es6-features)
+        -   [Day 9: DOM Manipulation](#day-9-dom-manipulation)
+        -   [Day 10: Event Handling](#day-10-event-handling)
+        -   [Day 11: Promises and Async/Await](#day-11-promises-and-asyncawait)
+        -   [Day 12: Error Handling](#day-12-error-handling)
+        -   [Day 13: Modules](#day-13-modules)
+        -   [Day 14: Classes](#day-14-classes)
+        -   [Day 15: Closures](#day-15-closures)
+        -   [Day 16: Recursion](#day-16-recursion)
+        -   [Day 17: Data Structures](#day-17-data-structures)
+        -   [Day 18: Algorithms](#day-18-algorithms)
+        -   [Day 19: Regular Expressions](#day-19-regular-expressions)
+        -   [Day 20: LocalStorage and SessionStorage](#day-20-localstorage-and-sessionstorage)
+        -   [Day 21: LeetCode Easy](#day-21-leetcode-easy)
+    -   [Resources](#resources)
+    -   [Credits](#credits)
+    -   [License](#license)
 
 ## Overview
 
@@ -59,7 +60,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 18**: Algorithms
 -   [x] **Day 19**: Regular Expressions
 -   [x] **Day 20**: Local Storage and Session Storage
--   [ ] **Day 21**: LeetCode Easy
+-   [x] **Day 21**: LeetCode Easy
 -   [ ] **Day 22**: LeetCode Medium
 -   [ ] **Day 23**: LeetCode Hard
 -   [ ] **Day 24**: Project 1 - Weather App
@@ -330,6 +331,14 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   **Task 8**: Write a script to remove an item from sessionStorage. Log the sessionStorage content before and after removal.
 -   **Task 9**: Write a function that accepts a key and a value, and saves the value to both localStorage and sessionStorage. Retrieve and log the values from both storage mechanisms.
 -   **Task 10**: Write a function that clears all data from both localStorage and sessionStorage. Verify that both storages are empty.
+
+### Day 21: LeetCode Easy
+
+-   **Task 1**: Solve the "Two Sum" problem on LeetCode.
+-   **Task 2**: Solve the "Reverse Integer" problem on LeetCode.
+-   **Task 3**: Solve the "Palindrome Number" problem on LeetCode.
+-   **Task 4**: Solve the "Merge Two Sorted Lists" problem on LeetCode.
+-   **Task 5**: Solve the "Valid Parentheses" problem on LeetCode.
 
 ## Resources
 

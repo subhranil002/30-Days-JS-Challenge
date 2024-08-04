@@ -31,6 +31,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 20: LocalStorage and SessionStorage](#day-20-localstorage-and-sessionstorage)
     - [Day 21: LeetCode Easy](#day-21-leetcode-easy)
     - [Day 22: LeetCode Medium](#day-22-leetcode-medium)
+    - [Day 23: LeetCode Hard](#day-23-leetcode-hard)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -63,7 +64,7 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   [x] **Day 20**: Local Storage and Session Storage
 -   [x] **Day 21**: LeetCode Easy
 -   [x] **Day 22**: LeetCode Medium
--   [ ] **Day 23**: LeetCode Hard
+-   [x] **Day 23**: LeetCode Hard
 -   [ ] **Day 24**: Project 1 - Weather App
 -   [ ] **Day 25**: Project 2 - Movie Search App
 -   [ ] **Day 26**: Project 3 - Chat Application
@@ -348,6 +349,14 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 -   **Task 3**: Solve the "Container With Most Water" problem on LeetCode.
 -   **Task 4**: Solve the "3Sum" problem on LeetCode.
 -   **Task 5**: Solve the "Group Anagrams" problem on LeetCode.
+
+### Day 23: LeetCode Hard
+
+-   **Task 1**: Solve the "Median of Two Sorted Arrays" problem on LeetCode.
+-   **Task 2**: Solve the "Merge k Sorted Lists" problem on LeetCode.
+-   **Task 3**: Solve the "Trapping Rain Water" problem on LeetCode.
+-   **Task 4**: Solve the "N-Queens" problem on LeetCode.
+-   **Task 5**: Solve the "Word Ladder" problem on LeetCode.
 
 ## Resources
 

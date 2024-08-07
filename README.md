@@ -33,6 +33,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 22: LeetCode Medium](#day-22-leetcode-medium)
     - [Day 23: LeetCode Hard](#day-23-leetcode-hard)
     - [Day 24: Project 1 - Weather App](#day-24-project-1---weather-app)
+    - [Day 25: Project 2 - Movie Search App](#day-25-project-2---movie-search-app)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -371,6 +372,19 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 - **Task 8**: Parse the forecast data and display the temperature and weather condition for each day in the forecast on the web page.
 - **Task 9**: Add icons or images to represent different weather conditions (e.g., sunny, rainy, cloudy) based on the weather data.
 - **Task 10**: Add CSS animations or transitions to make the weather app more interactive and visually appealing.
+
+### Day 25: Project 2 - Movie Search App
+
+- **Task 1:** Initialize a new project directory and set up the basic HTML structure for the movie search app.
+- **Task 2:** Add a basic CSS file to style the movie search app, including a container for displaying movie search results.
+- **Task 3:** Use the fetch API to get movie data from a public movie API (e.g., OMDB API or The Movie Database API). Log the response data to the console.
+- **Task 4:** Parse the movie data and display the movie title, poster, and release year on the web page.
+- **Task 5:** Add an input field and a search button to the HTML structure. Style the input and button using CSS.
+- **Task 6:** Write a function to fetch and display movie data based on a search query entered in the input field. Log any errors to the console.
+- **Task 7:** Modify the search results to include a "More Info" button for each movie. When clicked, fetch and display additional details about the movie, such as the plot, director, and actors.
+- **Task 8:** Create a modal or a new section on the page to display the detailed movie information.
+- **Task 9:** Add CSS styles to improve the layout and design of the search results and detailed movie information.
+- **Task 10:** Add CSS animations or transitions to make the movie search app more interactive and visually appealing.
 
 ## Resources
 

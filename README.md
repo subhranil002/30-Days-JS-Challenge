@@ -34,6 +34,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 23: LeetCode Hard](#day-23-leetcode-hard)
     - [Day 24: Project 1 - Weather App](#day-24-project-1---weather-app)
     - [Day 25: Project 2 - Movie Search App](#day-25-project-2---movie-search-app)
+    - [Day 26: Project 3 - Chat Application](#day-26-project-3---chat-application)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -385,6 +386,19 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 - **Task 8:** Create a modal or a new section on the page to display the detailed movie information.
 - **Task 9:** Add CSS styles to improve the layout and design of the search results and detailed movie information.
 - **Task 10:** Add CSS animations or transitions to make the movie search app more interactive and visually appealing.
+
+### Day 26: Project 3 - Chat Application
+
+- **Task 1:** Initialize a new project directory and set up the basic HTML structure for the chat application.
+- **Task 2:** Add a basic CSS file to style the chat application, including a chat window and input area.
+- **Task 3:** Set up a simple WebSocket server using Node.js and the ws library. Write a script to create the server and handle connections.
+- **Task 4:** Test the WebSocket server by logging messages when clients connect and disconnect.
+- **Task 5:** Add a script to the HTML file to establish a WebSocket connection to the server.
+- **Task 6:** Write functions to handle sending and receiving messages through the WebSocket connection. Log received messages to the console.
+- **Task 7:** Modify the HTML structure to include a chat window and an input area for typing messages. Style the chat window and input area using CSS.
+- **Task 8:** Write a function to display received messages in the chat window. Add event listeners to send messages when the user presses Enter or clicks a send button.
+- **Task 9:** Add user authentication to the chat application. Allow users to enter a username before joining the chat. Display usernames alongside their messages in the chat window.
+- **Task 10:** Add CSS styles to differentiate messages sent by different users. Add CSS animations or transitions to make the chat application more interactive and visually appealing.
 
 ## Resources
 

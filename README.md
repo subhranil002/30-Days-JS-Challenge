@@ -36,6 +36,7 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 25: Project 2 - Movie Search App](#day-25-project-2---movie-search-app)
     - [Day 26: Project 3 - Chat Application](#day-26-project-3---chat-application)
     - [Day 27: Project 4 - Task Management App](#day-27-project-4---task-management-app)
+    - [Day 28: Project 5 - E-commerce Website](#day-28-project-5---e-commerce-website)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -413,6 +414,19 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 - **Task 8:** Write a function to update the task object in the array and refresh the task list display after editing a task.
 - **Task 9:** Add a "Delete" button to each task item in the task list. Write a function to remove the task from the array and refresh the task list display when the "Delete" button is clicked.
 - **Task 10:** Add a confirmation dialog before deleting a task to prevent accidental deletions.
+
+### Day 28: Project 5 - E-commerce Website
+
+- **Task 1:** Initialize a new project directory and set up the basic HTML structure for the e-commerce website.
+- **Task 2:** Add a basic CSS file to style the e-commerce website, including a product listing grid and a shopping cart section.
+- **Task 3:** Create a JSON file or an array of product objects with details like name, price, description, and image URL.
+- **Task 4:** Write a script to dynamically generate the product listing from the product data and display it on the web page. Style the product cards using CSS.
+- **Task 5:** Add an "Add to Cart" button to each product card. Write a function to handle adding products to the shopping cart.
+- **Task 6:** Create a shopping cart section that displays the products added to the cart, including the name, price, and quantity. Update the cart display whenever a product is added.
+- **Task 7:** Add functionality to update the quantity of products in the cart. Write a function to handle increasing and decreasing the quantity of items.
+- **Task 8:** Add a "Remove" button to each item in the cart. Write a function to handle removing products from the cart and updating the display.
+- **Task 9:** Create a checkout form that collects user information (e.g., name, address, payment details). Style the form using CSS.
+- **Task 10:** Write a function to handle form submission, simulating the checkout process. Display a confirmation message with the order details.
 
 ## Resources
 

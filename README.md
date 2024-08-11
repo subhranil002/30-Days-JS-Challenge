@@ -37,6 +37,8 @@ Welcome to my journey through the **30 Days JavaScript Challenge**! This README 
     - [Day 26: Project 3 - Chat Application](#day-26-project-3---chat-application)
     - [Day 27: Project 4 - Task Management App](#day-27-project-4---task-management-app)
     - [Day 28: Project 5 - E-commerce Website](#day-28-project-5---e-commerce-website)
+    - [Day 29: Project 6 - Social Media Dashboard](#day-29-project-6---social-media-dashboard)
+    - [Day 30: Final Project - Social Media Dashboard with Full Features](#day-30-final-project---social-media-dashboard-with-full-features)
   - [Resources](#resources)
   - [Credits](#credits)
   - [License](#license)
@@ -427,6 +429,38 @@ I am participating in a 30-day challenge to enhance my JavaScript skills. Each d
 - **Task 8:** Add a "Remove" button to each item in the cart. Write a function to handle removing products from the cart and updating the display.
 - **Task 9:** Create a checkout form that collects user information (e.g., name, address, payment details). Style the form using CSS.
 - **Task 10:** Write a function to handle form submission, simulating the checkout process. Display a confirmation message with the order details.
+
+### Day 29: Project 6 - Social Media Dashboard
+
+- **Task 1:** Initialize a new project directory and set up the basic HTML structure for the social media dashboard.
+- **Task 2:** Add a basic CSS file to style the social media dashboard, including a container for posts and a form for creating new posts.
+- **Task 3:** Create a simple login form that collects a username and password. Style the form using CSS.
+- **Task 4:** Write a script to handle user login and store the logged-in user's information in `localStorage` or `sessionStorage`.
+- **Task 5:** Add a form to the HTML structure with fields for entering post details (e.g., text, image). Style the form using CSS.
+- **Task 6:** Write a script to handle form submission, creating a new post object and adding it to an array of posts. Display the new post in the feed.
+- **Task 7:** Write a function to iterate over the array of posts and display each post in the feed. Include post details like text, image, username, and timestamp.
+- **Task 8:** Style the post feed using CSS to make it visually appealing.
+- **Task 9:** Add "Like" and "Comment" buttons to each post. Write functions to handle liking a post and adding comments to a post.
+- **Task 10:** Display the number of likes and comments for each post. Update the display when users interact with the posts.
+- **Task 11:** Add CSS styles to differentiate posts by different users. Display the logged-in user's posts with a distinct style.
+- **Task 12:** Add CSS animations or transitions to make the social media dashboard more interactive and visually appealing.
+
+### Day 30: Final Project - Social Media Dashboard with Full Features
+
+- **Task 1:** Initialize a new project directory and set up the basic HTML structure for the final project.
+- **Task 2:** Add a basic CSS file to style the social media dashboard, including containers for posts, a sidebar for user information, and a form for creating new posts.
+- **Task 3:** Create a login and registration form that collects a username, email, and password. Style the forms using CSS.
+- **Task 4:** Write scripts to handle user registration and login, storing user information in `localStorage` or `sessionStorage`. Include basic validation for input fields.
+- **Task 5:** Create a user profile page that displays the logged-in user's information, including their username, email, and a profile picture. Allow users to update their profile information.
+- **Task 6:** Write a script to handle updating the user profile information and saving the changes to `localStorage` or `sessionStorage`.
+- **Task 7:** Add a form to the HTML structure with fields for entering post details (e.g., text, image). Style the form using CSS.
+- **Task 8:** Write a script to handle form submission, creating a new post object and adding it to an array of posts. Display the new post in the feed, including the username of the logged-in user.
+- **Task 9:** Add "Like" and "Comment" buttons to each post. Write functions to handle liking a post and adding comments to a post.
+- **Task 10:** Display the number of likes and comments for each post. Update the display when users interact with the posts.
+- **Task 11:** Implement a simple notification system that alerts users when they receive a new like or comment on their posts. Display notifications in a sidebar.
+- **Task 12:** Write a script to handle generating and displaying notifications based on user interactions.
+- **Task 13:** Add CSS styles to differentiate posts by different users. Display the logged-in user's posts with a distinct style.
+- **Task 14:** Add CSS animations or transitions to make the social media dashboard more interactive and visually appealing.
 
 ## Resources
 
